@@ -38,8 +38,6 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.Urls.Add("http://0.0.0.0:5143");
-
 // Estado
 var estado = new Estado();
 
